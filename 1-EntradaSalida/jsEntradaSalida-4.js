@@ -4,6 +4,19 @@
 */
 function Mostrar()
 {
+	var nombre;
+    var nombre2;
+    var Id;
 	
+	nombre = prompt ("ingrese Un Nombre");
+	nombre2 = prompt ("ingrese Un Apellido");
+	Id = prompt ("ingrese Un Id");
+	
+	document.getElementById ("elNombre").value = nombre;
+    document.getElementById ("elApellido").value = nombre2;
+    document.getElementById ("idNumero").value = Id;
+
+
+
 }
 
